@@ -1,0 +1,132 @@
+   <section class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 left">
+                    <div class="left-side">
+                        <span>{% inline_rich_text field="sub_heading" value="{{ module.sub_heading }}", no_wrapper=True %}</span>
+                        <h2>{% inline_rich_text field="heading" value="{{ module.heading }}", no_wrapper=True %}</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8">
+                    <div class="right-side">
+                        <div class="wrapper">
+                            <ul class="items">
+                                <li class="item">
+                                    <div class="cards">
+                                     {% if module.card_image_1.src %}
+	{% set sizeAttrs = 'width="{{ module.card_image_1.width|escape_attr }}" height="{{ module.card_image_1.height|escape_attr }}"' %}
+	{% if module.card_image_1.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_1.width|escape_attr }}" height="{{ module.card_image_1.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.card_image_1.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_1.max_width|escape_attr }}" height="{{ module.card_image_1.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.card_image_1.loading != 'disabled' ? 'loading="{{ module.card_image_1.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.card_image_1.src|escape_url }}" alt="{{ module.card_image_1.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+                                        <h3>{% inline_rich_text field="card_heading_1" value="{{ module.card_heading_1 }}", no_wrapper=True%}</h3>
+                                        <p>{% inline_rich_text field="card_heading_3" value="{{ module.card_heading_3 }}", no_wrapper=True %}</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="cards">
+                                        {% if module.card_image_2.src %}
+	{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}"' %}
+	{% if module.card_image_2.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.card_image_2.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.max_width|escape_attr }}" height="{{ module.card_image_2.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.card_image_2.loading != 'disabled' ? 'loading="{{ module.card_image_2.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.card_image_2.src|escape_url }}" alt="{{ module.card_image_2.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+                                        <h3>{% inline_rich_text field="card_heading_1" value="{{ module.card_heading_1 }}", no_wrapper=True %}</h3>
+                                        <p>{% inline_rich_text field="card_heading_3" value="{{ module.card_heading_3 }}", no_wrapper=True %}</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="cards">
+                                       {% if module.card_image_2.src %}
+	{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}"' %}
+	{% if module.card_image_2.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.card_image_2.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.max_width|escape_attr }}" height="{{ module.card_image_2.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.card_image_2.loading != 'disabled' ? 'loading="{{ module.card_image_2.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.card_image_2.src|escape_url }}" alt="{{ module.card_image_2.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+                                        <h3>{% inline_rich_text field="card_heading_2" value="{{ module.card_heading_2 }}", no_wrapper=True %}</h3>
+                                        <p>{% inline_rich_text field="card_para_2" value="{{ module.card_para_2 }}", no_wrapper=True %}</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                       <div class="cards">
+                                        {% if module.card_image_2.src %}
+	{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}"' %}
+	{% if module.card_image_2.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.card_image_2.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.max_width|escape_attr }}" height="{{ module.card_image_2.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.card_image_2.loading != 'disabled' ? 'loading="{{ module.card_image_2.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.card_image_2.src|escape_url }}" alt="{{ module.card_image_2.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+                                        <h3>{% inline_rich_text field="card_heading_1" value="{{ module.card_heading_1 }}", no_wrapper=True %}</h3>
+                                        <p>{% inline_rich_text field="card_heading_3" value="{{ module.card_heading_3 }}", no_wrapper=True %}</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                     <div class="cards">
+                                     {% if module.card_image_1.src %}
+	{% set sizeAttrs = 'width="{{ module.card_image_1.width|escape_attr }}" height="{{ module.card_image_1.height|escape_attr }}"' %}
+	{% if module.card_image_1.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_1.width|escape_attr }}" height="{{ module.card_image_1.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.card_image_1.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_1.max_width|escape_attr }}" height="{{ module.card_image_1.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.card_image_1.loading != 'disabled' ? 'loading="{{ module.card_image_1.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.card_image_1.src|escape_url }}" alt="{{ module.card_image_1.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+                                        <h3>{% inline_rich_text field="card_heading_1" value="{{ module.card_heading_1 }}", no_wrapper=True%}</h3>
+                                        <p>{% inline_rich_text field="card_heading_3" value="{{ module.card_heading_3 }}", no_wrapper=True %}</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                           <div class="cards">
+                                        {% if module.card_image_2.src %}
+	{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}"' %}
+	{% if module.card_image_2.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.width|escape_attr }}" height="{{ module.card_image_2.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.card_image_2.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_2.max_width|escape_attr }}" height="{{ module.card_image_2.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.card_image_2.loading != 'disabled' ? 'loading="{{ module.card_image_2.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.card_image_2.src|escape_url }}" alt="{{ module.card_image_2.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+                                        <h3>{% inline_rich_text field="card_heading_1" value="{{ module.card_heading_1 }}", no_wrapper=True %}</h3>
+                                        <p>{% inline_rich_text field="card_heading_3" value="{{ module.card_heading_3 }}", no_wrapper=True %}</p>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                   <div class="cards">
+                                     {% if module.card_image_1.src %}
+	{% set sizeAttrs = 'width="{{ module.card_image_1.width|escape_attr }}" height="{{ module.card_image_1.height|escape_attr }}"' %}
+	{% if module.card_image_1.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_1.width|escape_attr }}" height="{{ module.card_image_1.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.card_image_1.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.card_image_1.max_width|escape_attr }}" height="{{ module.card_image_1.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.card_image_1.loading != 'disabled' ? 'loading="{{ module.card_image_1.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.card_image_1.src|escape_url }}" alt="{{ module.card_image_1.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+                                        <h3>{% inline_rich_text field="card_heading_1" value="{{ module.card_heading_1 }}", no_wrapper=True%}</h3>
+                                        <p>{% inline_rich_text field="card_heading_3" value="{{ module.card_heading_3 }}", no_wrapper=True %}</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

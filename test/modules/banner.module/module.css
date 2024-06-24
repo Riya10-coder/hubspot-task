@@ -1,0 +1,146 @@
+ 
+.banner-images{
+  background-image: url(https://img.eselt.de/img/15632261_06YzPZby5mV628PW/ad.jpg);
+      background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+  
+}
+.banner-wrap {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.banner-section {
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+    margin-top: 161px;
+    position: relative;
+    background: linear-gradient(130deg, rgba(255, 221, 211, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    top: -52px;
+  
+}
+.image-wrapper.right-image {
+    margin-top: -128px;
+}
+.image-wrapper.left-image {
+    margin-top: 174px;
+}
+
+.banner-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.explore-btn {
+    background-color: #fff;
+    color: #ff4081;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* .image-one:before{
+  position:absolute;
+  background: url("https://i.postimg.cc/3wMM3bwg/Frame-16.png");
+  content:"";
+  bottom:0;
+  
+} */
+.banner-content h1 {
+    font-size: 48px;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.banner-content h1 span {
+    color: #ff4081;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.banner-buttons {
+    margin-top: 20px;
+}
+
+.get-started-btn, .watch-demo-btn {
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+      margin-bottom: 10px;
+}
+
+.watch-demo-btn {
+    background-color: white;
+    color: #673ab7;
+    border: 2px solid #673ab7;
+}
+
+.banner-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.image-wrapper {
+    margin: 10px 0;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .banner-section {
+        flex-direction: column;
+        text-align: center;
+      top:-56px;
+    }
+  .image-wrapper.right-image {
+    margin-top:0;
+}
+.image-wrapper.left-image {
+    margin-top: 0;
+}
+
+    .banner-content, .banner-images {
+        flex: none;
+        width: 100%;
+    }
+
+    .banner-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image-wrapper {
+        width: 100%;
+      margin-bottom: 40px;
+    
+    }
+  .banner-images{
+  background-image: none;
+
+  
+}
+}

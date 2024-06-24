@@ -1,0 +1,99 @@
+.email-section{
+  margin-top:100px;
+  position:relative;
+}
+.newsletter-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.icon i{
+  color:#00000078;
+}
+#newsletter-form{
+display:flex;
+  background: none;
+   text-align: center;
+  align-items:center;
+    width:100%;
+  
+}
+.newsletter-title {
+    color: #e91e63;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.email-wrapper{
+    background: #fdbd0014;
+    padding: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+/* .email-section:before{
+position: absolute;
+    content: "";
+    background: url(https://img.eselt.de/img/15635984_5eNImqVPryXmcpd9/ad.jpg);
+    width: 500px;
+    top: -63px;
+    z-index: -3;
+    height: 175px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 123px;
+}
+.email-section:after{
+    position: absolute;
+    content: "";
+    background: url(https://img.eselt.de/img/15635998_IsQv8xIiSxdF4l0a/ad.jpg);
+    width: 173px;
+    bottom: 0;
+    height: 477px;
+    right: 0;
+    background-repeat: no-repeat;
+    z-index: -2;
+    top: 193px;
+} */
+.input-groups {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+     background-color: #f7f7f7;
+       width:100%;
+      margin-right: 25px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+input[type="email"] {
+        background: none !important;
+    border: none !important;
+    flex: 1;
+    outline: none !important;
+    padding: 10px !important;
+}
+
+.subscribe-button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #4a148c;
+}
+@media screen and (max-width: 768px) {
+  .email-wrapper{
+    padding:50px;
+  }
+}

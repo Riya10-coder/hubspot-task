@@ -1,0 +1,121 @@
+[ {
+  "id" : "df8c79fd-032e-ab5b-8e48-1fe4a6731d2d",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/travel.png",
+    "alt" : "travel",
+    "loading" : "lazy",
+    "width" : 781,
+    "height" : 695,
+    "max_width" : 781,
+    "max_height" : 695
+  }
+}, {
+  "id" : "1177b8be-55c3-b9f6-24d7-12499aa2db4a",
+  "name" : "sub_heading",
+  "display_width" : null,
+  "label" : "sub-heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Travel Point"
+}, {
+  "id" : "bdcafda6-c9da-9962-92b4-9d0fff7bef6c",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "We helping you find your dream location"
+}, {
+  "id" : "22b1be58-2746-187c-cd3d-5fc0fb1b4c4f",
+  "name" : "desc",
+  "display_width" : null,
+  "label" : "desc",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."
+}, {
+  "id" : "0c0a1cd9-7a69-c935-7238-8c15012b74fe",
+  "name" : "card_1_heading",
+  "display_width" : null,
+  "label" : "card-1-heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "500+"
+}, {
+  "id" : "8a8143ce-f58f-124c-a61d-1d72b2b7c3e9",
+  "name" : "card_2_heading",
+  "display_width" : null,
+  "label" : "card-2-heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "100"
+}, {
+  "id" : "d315efc4-7732-0a13-892a-fc8fdce0d382",
+  "name" : "card_3_heading_",
+  "display_width" : null,
+  "label" : "card-3-heading ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "7"
+}, {
+  "id" : "0f84734c-1da1-6860-e315-59c45834f662",
+  "name" : "card_4_heading_",
+  "display_width" : null,
+  "label" : "card-4-heading  ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "2k+"
+}, {
+  "id" : "6304171c-8916-774b-c992-2dcaa9469544",
+  "name" : "card_1_dec",
+  "display_width" : null,
+  "label" : "card-1-dec",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Holiday Package"
+}, {
+  "id" : "d7d095b7-3a28-8e8e-cf03-fdb3374d2323",
+  "name" : "card_2_dec",
+  "display_width" : null,
+  "label" : "card-2-dec",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Luxury Hotel"
+}, {
+  "id" : "1d46d458-1d9b-d712-bba7-c627a628570c",
+  "name" : "card_3_dec",
+  "display_width" : null,
+  "label" : "card-3-dec",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Premium Airlines"
+}, {
+  "id" : "e796e374-7883-5838-72a7-0bc763ab39e9",
+  "name" : "card_4_dec_",
+  "display_width" : null,
+  "label" : "card-4-dec ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Happy Customer"
+} ]

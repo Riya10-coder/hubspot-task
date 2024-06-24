@@ -1,0 +1,10 @@
+{
+  "global" : false,
+  "content_types" : [ "LANDING_PAGE", "SITE_PAGE" ],
+  "categories" : [ "body_content" ],
+  "icon" : "/test/images/module-icons/info-circle-solid.svg",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 152422967890,
+  "label" : "Card",
+  "is_available_for_new_content" : true
+}

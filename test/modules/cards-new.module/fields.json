@@ -1,0 +1,10 @@
+[ {
+  "id" : "147fc42e-4317-d689-4aec-14a3e9f146f9",
+  "name" : "card_1",
+  "display_width" : null,
+  "label" : "card-1",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "cards"
+} ]

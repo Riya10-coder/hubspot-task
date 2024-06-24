@@ -1,0 +1,97 @@
+[ {
+  "id" : "3f23ff61-53fb-ccb7-714f-2623d1729291",
+  "name" : "sub_heading",
+  "display_width" : null,
+  "label" : "sub-heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "SERVICES"
+}, {
+  "id" : "1a4c32c0-b192-60bc-19ed-319157fdb3f1",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h2>Our top value categories for you</h2>"
+}, {
+  "id" : "0f99f9ee-0cad-06d4-5a85-e5b938040656",
+  "name" : "card_image_1",
+  "display_width" : null,
+  "label" : "card-Image-1",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/destination.png",
+    "alt" : "destination",
+    "loading" : "lazy",
+    "width" : 64,
+    "height" : 64,
+    "max_width" : 64,
+    "max_height" : 64
+  }
+}, {
+  "id" : "d99f380f-ccfc-bfd0-f092-b34d00ff6339",
+  "name" : "card_image_2",
+  "display_width" : null,
+  "label" : "card-Image-2",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/destination.png",
+    "alt" : "destination",
+    "loading" : "lazy",
+    "width" : 64,
+    "height" : 64,
+    "max_width" : 64,
+    "max_height" : 64
+  }
+}, {
+  "id" : "a6762c4c-365d-e0eb-082c-6e918e1c9255",
+  "name" : "card_heading_1",
+  "display_width" : null,
+  "label" : "card-heading-1",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Best Tour Guide"
+}, {
+  "id" : "518e9d23-559e-9478-5623-27569d3b9e99",
+  "name" : "card_heading_2",
+  "display_width" : null,
+  "label" : "card-heading-2",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Best Tour Guide"
+}, {
+  "id" : "0c7c2052-1794-d17e-b7a6-5164c3910c38",
+  "name" : "card_heading_3",
+  "display_width" : null,
+  "label" : "card-para-1",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "What looked like a small patch of purple grass, above five feet."
+}, {
+  "id" : "e784a03a-43a0-7016-5285-6410a5ab0be7",
+  "name" : "card_para_2",
+  "display_width" : null,
+  "label" : "card-para-2",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "What looked like a small patch of purple grass, above five feet."
+} ]

@@ -1,0 +1,164 @@
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left-side h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+ span {
+    color: #ff4081;
+}
+
+  
+
+.left-side p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.right-side {
+    padding: 3rem;
+    overflow: hidden;
+}
+
+.cards{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 4rem;
+    padding: 2rem;
+    text-align: center;
+    flex-shrink: 0;
+    cursor: grab;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ .item {
+    border-radius: 10px;
+    margin-right: 4rem;
+    padding: 2rem;
+    cursor: grab;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.cards h3 {
+    font-size: 0.7rem;
+    margin-bottom: .5rem;
+}
+
+.cards p {
+    font-size: 0.5rem;
+    line-height: 1.4;
+    color: #666;
+}
+
+/* Highlight card when dragging */
+.cards.active, .cards.clicked {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .left-side, .right-side {
+        width: 100%;
+      padding:0;
+        margin-top:2rem;
+    }
+
+    .cards, .item {
+        margin-right: 3rem;
+    }
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.items {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.items.active {
+    cursor: grab;
+}
+
+.item {
+    display: inline-block;
+    user-select: none;
+    margin-left: 20px;
+}
+
+.item:last-child {
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .item {
+        width: 33%;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .item {
+        width: 25%;
+        margin-right: 6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        margin-left: -20px;
+    }
+
+    .item {
+        width: 20%;
+    }
+}
+/* Hide scrollbar */
+.wrapper {
+    overflow: hidden;
+}
+
+.items {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.items::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+ 

@@ -1,0 +1,53 @@
+  <section class="travel-point">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+            <div class="left">
+        {% if module.image_field.src %}
+	{% set sizeAttrs = 'width="{{ module.image_field.width|escape_attr }}" height="{{ module.image_field.height|escape_attr }}"' %}
+	{% if module.image_field.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.image_field.width|escape_attr }}" height="{{ module.image_field.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.image_field.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.image_field.max_width|escape_attr }}" height="{{ module.image_field.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.image_field.loading != 'disabled' ? 'loading="{{ module.image_field.loading|escape_attr }}"' : '' %}
+	<img src="{{ module.image_field.src|escape_url }}" alt="{{ module.image_field.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+            </div>
+        </div>
+        <div class="col-12  col-md-6 col-lg-6">
+            <div class="right">
+                <span> {% inline_rich_text field="sub_heading" value="{{ module.sub_heading }}", no_wrapper=True  %}</span>
+                <h2>{% inline_rich_text field="heading" value="{{ module.heading }}", no_wrapper=True %}</h2>
+                <p>{% inline_rich_text field="desc" value="{{ module.desc }}", no_wrapper=True  %}</p>
+                <div class="stats ">
+                    <div class=" col-12  col-md-6 col-lg-6 ">
+                        <div class="stat-wrapper">
+                        <h3>{% inline_rich_text field="card_1_heading" value="{{ module.card_1_heading }}", no_wrapper=True  %}</h3>
+                        <p>{% inline_rich_text field="card_1_dec" value="{{ module.card_1_dec }}", no_wrapper=True  %}</p>
+                    </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-6 ">
+                        <div class="stat-wrapper">
+                        <h3>{% inline_rich_text field="card_2_heading" value="{{ module.card_2_heading }}" , no_wrapper=True %}</h3>
+                        <p>{% inline_rich_text field="card_2_dec" value="{{ module.card_2_dec }}", no_wrapper=True %}</p>
+                    </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-6 ">
+                        <div class="stat-wrapper">
+                        <h3>{% inline_rich_text field="card_3_heading_" value="{{ module.card_3_heading_ }}", no_wrapper=True %}</h3>
+                        <p>{% inline_rich_text field="card_3_dec" value="{{ module.card_3_dec }}", no_wrapper=True  %}</p>
+                    </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-6 ">
+                        <div class="stat-wrapper">
+                        <h3>{% inline_rich_text field="card_4_heading_" value="{{ module.card_4_heading_ }}", no_wrapper=True  %}</h3>
+                        <p>{% inline_rich_text field="card_4_dec_" value="{{ module.card_4_dec_ }}", no_wrapper=True  %}</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>

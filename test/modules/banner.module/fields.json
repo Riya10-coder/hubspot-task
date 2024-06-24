@@ -1,0 +1,109 @@
+[ {
+  "id" : "716339f8-904a-5824-be96-5a6b81adf9fd",
+  "name" : "image_1",
+  "display_width" : null,
+  "label" : "Image-1",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/banner-image-1.jpeg",
+    "alt" : "banner-image-1",
+    "loading" : "lazy",
+    "width" : 362,
+    "height" : 543,
+    "max_width" : 362,
+    "max_height" : 543
+  }
+}, {
+  "id" : "f60a7edd-d268-d8bf-efb3-d81929603aab",
+  "name" : "image_2",
+  "display_width" : null,
+  "label" : "Image-2",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/banner-image-2.jpeg",
+    "alt" : "banner-image-2",
+    "loading" : "lazy",
+    "width" : 417,
+    "height" : 626,
+    "max_width" : 417,
+    "max_height" : 626
+  }
+}, {
+  "id" : "6db0c4e7-d85d-b16f-f879-38bfa0bc524e",
+  "name" : "image_3",
+  "display_width" : null,
+  "label" : "Image-3",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/banner-image-3.jpeg",
+    "alt" : "banner-image-3",
+    "loading" : "lazy",
+    "width" : 417,
+    "height" : 626,
+    "max_width" : 417,
+    "max_height" : 626
+  }
+}, {
+  "id" : "ae5e6e3f-ad96-2b79-7c93-62097b54078a",
+  "name" : "button",
+  "display_width" : null,
+  "label" : "button",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Explore the world!&nbsp;"
+}, {
+  "id" : "eebd971d-6138-d523-77c7-c52b4726c1c2",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Travel <span>top destination</span> of the world"
+}, {
+  "id" : "a67d27e6-b1cd-cbd7-a4b2-dd8e3fa5ef56",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "We always make our customer happy by providing as many choices as possible"
+}, {
+  "id" : "b5ec1562-47de-438e-7b58-7c614553e1c6",
+  "name" : "button_2",
+  "display_width" : null,
+  "label" : "button-2",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Get Started"
+}, {
+  "id" : "582b7425-d5af-1ebb-7eaf-1ff4c93ef4f8",
+  "name" : "button_3",
+  "display_width" : null,
+  "label" : "button-3",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Watch Demo&nbsp;"
+} ]

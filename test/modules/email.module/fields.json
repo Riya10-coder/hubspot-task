@@ -1,0 +1,28 @@
+[ {
+  "id" : "07dd9447-8b79-de93-77e0-bc7e1166740d",
+  "name" : "sub_heading",
+  "display_width" : null,
+  "label" : "sub-heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "SUBSCRIBE TO OUR NEWSLETTER"
+}, {
+  "id" : "16c00796-f9f5-3263-63ba-ac76e458f592",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Prepare yourself &amp; let's explore the beauty of the world"
+}, {
+  "id" : "6b98a5e1-73d7-ea01-0cc7-531d2e79ecfc",
+  "name" : "button",
+  "display_width" : null,
+  "label" : "button",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Subscribe"
+} ]

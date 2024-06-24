@@ -1,0 +1,123 @@
+[ {
+  "id" : "977a74a1-c64a-af42-660e-134c09a0d138",
+  "name" : "logo_1",
+  "display_width" : null,
+  "label" : "logo-1",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/Imported%20images/mcdonalds-black-logo.png",
+    "alt" : "mcdonalds-black-logo",
+    "loading" : "lazy",
+    "width" : 800,
+    "height" : 600,
+    "max_width" : 800,
+    "max_height" : 600
+  }
+}, {
+  "id" : "de390be8-2053-bdc5-c0fe-f2132c3c1264",
+  "name" : "logo_2",
+  "display_width" : null,
+  "label" : "logo-2",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto_custom_max",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/Imported%20images/starbucks-logo-black-and-white.png",
+    "alt" : "starbucks-logo-black-and-white",
+    "loading" : "lazy",
+    "width" : 2400,
+    "height" : 2427,
+    "max_width" : 1977.750309023486,
+    "max_height" : 2000
+  }
+}, {
+  "id" : "25d501ab-997d-90a2-6d37-afb47ec1aa04",
+  "name" : "logo_3",
+  "display_width" : null,
+  "label" : "logo-3",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto_custom_max",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/Imported%20images/general-electric-black-logo-png-transparent.png",
+    "alt" : "general-electric-black-logo-png-transparent",
+    "loading" : "lazy",
+    "width" : 2400,
+    "height" : 2400,
+    "max_width" : 2000,
+    "max_height" : 2000
+  }
+}, {
+  "id" : "f9e4995e-f951-054e-9f9b-a1fb056b9b11",
+  "name" : "logo_4",
+  "display_width" : null,
+  "label" : "logo-4",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto_custom_max",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/Imported%20images/nfl-logo-png-transparent.png",
+    "alt" : "nfl-logo-png-transparent",
+    "loading" : "lazy",
+    "width" : 2400,
+    "height" : 2400,
+    "max_width" : 2000,
+    "max_height" : 2000
+  }
+}, {
+  "id" : "a408e5fc-8c8b-5c67-91c8-76c3cd75d2fa",
+  "name" : "logo_5",
+  "display_width" : null,
+  "label" : "logo-5",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto_custom_max",
+    "src" : "https://43901000.fs1.hubspotusercontent-na1.net/hubfs/43901000/Imported%20images/mercedes-benz-6-logo-png-transparent.png",
+    "alt" : "mercedes-benz-6-logo-png-transparent",
+    "loading" : "lazy",
+    "width" : 2400,
+    "height" : 2400,
+    "max_width" : 2000,
+    "max_height" : 2000
+  }
+}, {
+  "id" : "803ce194-12a3-cf54-e785-dd64e750cc92",
+  "name" : "logo_6",
+  "display_width" : null,
+  "label" : "logo-6",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+} ]

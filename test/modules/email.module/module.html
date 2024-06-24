@@ -1,0 +1,15 @@
+    <section class = "email-section">
+    <div class="container">
+      <div class="email-wrapper">
+        <span class="newsletter-title">{% inline_rich_text field="sub_heading" value="{{ module.sub_heading }}", no_wrapper=True %}</span>
+        <h2>{% inline_rich_text field="heading" value="{{ module.heading }}", no_wrapper=True %}</h2>
+        <form id="newsletter-form">
+            <div class="input-groups">
+                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <button type="submit" class="subscribe-button">{% inline_rich_text field="button" value="{{ module.button }}" %}</button>
+        </form>
+    </div>
+        </div>
+</section>
